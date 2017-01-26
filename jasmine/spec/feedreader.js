@@ -82,7 +82,7 @@ describe('Initial Entries', function () {
 
     it('should have at least a single entry after loading feeds', function () {
             // check that the number of entries is greater than 0
-            expect($('.entry').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
         });
 });
 
